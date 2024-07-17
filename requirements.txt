@@ -1,0 +1,5 @@
+jax==0.4.26
+tensorflow
+sentencepiece
+ml_collections
+Pillow
