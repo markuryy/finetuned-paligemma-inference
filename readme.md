@@ -1,10 +1,13 @@
 # Finetuned PaliGemma Inference
 
-This repository contains scripts for running inference using a finetuned PaliGemma model. The script processes images from a specified directory, generates captions using the model, and saves each caption as a text file corresponding to the image filename.
+~~This repository contains scripts for running inference using a finetuned PaliGemma model. The script processes images from a specified directory, generates captions using the model, and saves each caption as a text file corresponding to the image filename.~~
+
+I am only using this repository to host the conversion script now. Please see [MPIC](https://github.com/markuryy/paligemma-image-captioner) (Markury's Paligemma Image Captioner) for proper inference tools and a colab/jupyterlab notebook to use the script.
 
 ## Repository Contents
 
-- `paligemma_inference.py`: Main script for running inference.
+- `paligemma_inference.py`: ~~Main script for running inference.~~
+- `convert_to_hf.py`: Conversion script from Transformers.
 - `download_tokenizer.py`: Script to download the tokenizer model.
 - `requirements.txt`: List of required packages.
 - `README.md`: Instructions for setting up and running the scripts.
